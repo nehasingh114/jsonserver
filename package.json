@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/nehasingh114/jsonserver#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "json-server": "^0.17.1"
   }
 }
